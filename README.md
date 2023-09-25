@@ -69,3 +69,19 @@ https://goerli.etherscan.io/tx/0x381421258132f48036bb70af6951248d0e411aa5a51fbcb
 4.  В `hardhat.config.js` указываем приватный ключ кошелька/аккаунта `owner` в `accounts` для `owner`
 5.  Убеждаемся, что `routerAddress` и `factoryAddress` в `deploy.js` соответствуют адресам выбранной сети
 6.  Вызываем в консоли `npx hardhat run scripts/deploy.js --network bscTestnet` (либо `alchemyGoerli`, либо любая другая сеть)
+
+## Ссылки
+
+https://www.youtube.com/watch?v=MxTgk-kvtRM
+
+https://github.com/stakewithus/defi-by-example
+
+https://github.com/fxfactorial/uniswap-flash-swapper
+
+https://github.com/LHerskind/ArbSwapper-v2/blob/master/src/BaseSwapperV2.sol (модуль под Curve)
+
+https://github.com/Haehnchen/uniswap-arbitrage-flash-swap/blob/main/contracts/Flashswap.sol (между 2 биржами)
+
+https://github.com/gweidart/evm-flashswap-arb/blob/main/contracts/FlashBot.sol (между 2 биржами)
+
+https://forum.openzeppelin.com/t/flash-loan-on-uniswap-v2/35559
